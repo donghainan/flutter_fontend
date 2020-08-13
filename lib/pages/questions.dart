@@ -69,6 +69,8 @@ class _QuestionsState extends State<Questions> {
                       return Image.network(
                         "http://via.placeholder.com/300x150",
                         fit: BoxFit.cover,
+                        width: 300,
+                        height: 150,
                       );
                     },
                     itemCount: 3,
