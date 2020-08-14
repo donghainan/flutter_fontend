@@ -23,10 +23,6 @@ class _MyAppBarState extends State<MyAppBar> {
   Widget build(BuildContext context) {
     return Container(
       child: Scaffold(
-        appBar: AppBar(
-          title: Text("前端面试星球"),
-          centerTitle: true,
-        ),
         body: this._pagesList[this._currentIndex],
         bottomNavigationBar: BottomNavigationBar(
             currentIndex: _currentIndex,

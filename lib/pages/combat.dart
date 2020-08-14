@@ -11,12 +11,14 @@ class Combat extends StatefulWidget {
 class _CombatState extends State<Combat> {
   @override
   Widget build(BuildContext context) {
+    ScreenUtil.init(context, width: 750, height: 1334);
+    
     List<Widget> _courseList() {
       var temList = <Widget>[];
 
       for (var i = 0; i < 10; i++) {
         temList.add(FlatButton(
-            onPressed: (){
+            onPressed: () {
               print(i);
             },
             child: Card(
@@ -94,8 +96,14 @@ class _CombatState extends State<Combat> {
       return temList;
     }
 
-    return ListView(
-      children: _courseList(),
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("一线实战"),
+        centerTitle: true,
+      ),
+      body: ListView(
+        children: _courseList(),
+      ),
     );
   }
 }
