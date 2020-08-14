@@ -8,9 +8,9 @@
 
 ## 项目部分截图
 
-- [面试真题](<'./project/images/1597393320(1).jpg>)
-- [一线实战](<'./project/images/1597393320(1).jpg>)
-- [个人中心](<'./project/images/1597393320(1).jpg>)
+- [Image 面试真题](./project/images/1597393320(1).jpg)
+- [Image 一线实战](./project/images/1597393320(1).jpg)
+- [Image 个人中心](./project/images/1597393320(1).jpg)
 
 ## 项目功能介绍
 
