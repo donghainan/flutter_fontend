@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import '../router/application.dart';
 
 class Personal extends StatefulWidget {
   Personal({Key key}) : super(key: key);
@@ -20,7 +21,7 @@ class _PersonalState extends State<Personal> {
           padding: EdgeInsets.only(left: 10, right: 10),
           child: FlatButton(
               onPressed: () {
-                print(i);
+                Application.router.navigateTo(context, "/dayQuestionDetail");
               },
               child: Container(
                 height: 100.h,

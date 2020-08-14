@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import '../router/application.dart';
 
 class Questions extends StatefulWidget {
   Questions({Key key}) : super(key: key);
@@ -12,7 +13,10 @@ class Questions extends StatefulWidget {
 class _QuestionsState extends State<Questions> {
   @override
   Widget build(BuildContext context) {
+    ScreenUtil.init(context, width: 750, height: 1334);
     var screenW = MediaQuery.of(context).size.width;
+    String _dayQuestion = 'Day112:数组里面有10万个数据，取第一个元素和第10个元素的时间差多少';
+
     List<Widget> _getList() {
       var temList = <Widget>[];
       for (var i = 0; i < 10; i++) {
@@ -54,7 +58,7 @@ class _QuestionsState extends State<Questions> {
       return temList;
     }
 
-    ScreenUtil.init(context, width: 750, height: 1334);
+    
     return Scaffold(
       appBar: AppBar(title: Text("前端星球"),centerTitle: true,),
       body: SingleChildScrollView(
@@ -129,7 +133,7 @@ class _QuestionsState extends State<Questions> {
                   padding: EdgeInsets.only(top: 5, right: 5, bottom: 20),
                   child: FlatButton(
                       onPressed: () {
-                        print("object");
+                        Application.router.navigateTo(context, "/dayQuestionDetail");
                       },
                       child: Column(
                         children: <Widget>[
@@ -167,7 +171,7 @@ class _QuestionsState extends State<Questions> {
                             padding: EdgeInsets.only(
                                 top: 20, right: 30, bottom: 0, left: 10),
                             child: Text(
-                              "Day112:数组里面有10万个数据，取第一个元素和第10个元素的时间差多少",
+                              _dayQuestion,
                               style: TextStyle(
                                   letterSpacing: 2,
                                   fontSize: ScreenUtil().setSp(25),
