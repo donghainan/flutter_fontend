@@ -8,9 +8,9 @@
 
 ## 项目部分截图
 
-- [Image 面试真题](https://github.com/donghainan/flutter_fontend/blob/master/project/images/1597393320(1).jpg)
-- [Image 一线实战](https://github.com/donghainan/flutter_fontend/blob/master/project/images/1597393346(1).jpg)
-- [Image 个人中心](https://github.com/donghainan/flutter_fontend/blob/master/project/images/1597393367(1).jpg)
+- ![面试真题](https://github.com/donghainan/flutter_fontend/blob/master/project/images/1597393320(1).jpg)
+- ![一线实战](https://github.com/donghainan/flutter_fontend/blob/master/project/images/1597393346(1).jpg)
+- ![个人中心](https://github.com/donghainan/flutter_fontend/blob/master/project/images/1597393367(1).jpg)
 
 ## 项目功能介绍
 
