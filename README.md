@@ -1,16 +1,19 @@
 # flutterapp
 
-A new Flutter application.
+采用 flutter 做移动端开发
+采用 vue + vuex + vue-router + axios + ts 做后台发布系统
+采用 eggjs + mysql 做后台模拟操作
 
-## Getting Started
+体验 从移动端到后台管理系统的整个开发流程，同时可以做为自己的工作笔记记录下来，随时翻阅
 
-This project is a starting point for a Flutter application.
+## 项目部分截图
 
-A few resources to get you started if this is your first Flutter project:
+- [面试真题](<'./project/images/1597393320(1).jpg>)
+- [一线实战](<'./project/images/1597393320(1).jpg>)
+- [个人中心](<'./project/images/1597393320(1).jpg>)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## 项目功能介绍
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 项目中使用的技术及碰到的问题
+
+## 项目期望
